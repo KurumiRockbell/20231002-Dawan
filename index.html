@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Formation HTML5 CSS3 RWD</title>
     <meta name="description" content="Site projet pour la formation html, css, rwd semaine 40 2023"/>
+    <link rel="stylesheet" href="./css/bootstrap-icons.css">
 </head>
 <body>
     <header>
@@ -23,10 +24,52 @@
     </nav>
     <main>
         <section>
-            
+            <aside>
+                <span>Table des matières</span>
+                <ol >
+                    <li><a href="#balises-contenu" title="Aller à la partie Balises de contenu">Les balises de contenu texte</a></li>
+                    <li><a href="#" title=""></a></li>
+                    <li><a href="#" title=""></a></li>
+                </ol>
+            </aside>
+        </section>
+        <section>
+            <article>
+                <header>
+                    <h2 id="balises-contenu">HTML : Les balises de contenu</h2>
+                </header>
+                <main>
+                    <p>
+                        Le texte doit toujours etre compris dans des balises de contenue de type paragraphe, comme bloc de citation, du texte préformater etc...
+                        <br />
+                        La balise <code>&lt;BR&gt;</code> permet de mettre un retour chariot au sein d'un paragraphe.
+                    </p>
+                    <hr />
+                    <p>
+                        La plupart des balises de contenu texte sont en affichage <code>display: block</code> c'est a dire quels prennent tout l'espace disponnible en largeur et celle qui sont <code>display: inline</code>"entourent" le contenue texte, elle peuveuent par exemple servire a apliquer un CSS particulier a ce texte comme la balise <code>&lt;code&gt;</code> <code>&lt;span&gt;</code> ou avoir un fonctionnement comme la balise <code>&lt;a&gt;</code>
+                    </p>
+                    <p>
+                        Attention pour par exemple mettre du texte en gras ou en italique, il existe plusieurs balise comme <code>&lt;strong&gt;</code> pour le gras, <code>&lt;i&gt;</code> pour l'italique.
+                    </p>
+                    <p>
+                        Si on utilise <code>&lt;strong&gt;</code> on donne en plus d'une importance visuelle au contenue au niveau de la semantique donc du referencement.Alors que <code>&lt;b&gt;</code> ne donne qu'une importance visuelle.
+                    </p>
+                        La même chose pour la balise <code>&lt;em&gt;</code> qui <em>donne en plus de l'italique une emphase au texte</em>. Alors que la balise <code>&lt;i&gt;</code> n'agit que visuellement 
+                    </p>
+                    <p>
+                        Certains systeme d'icones fournis sur internet utilise la balise i comme support pour afficher leurs icones. <i class="bi bi-apple"></i>
+                    </p>
+                </main>
+                <footer>
+
+                </footer>
+            </article>
         </section>
     </main>
     <footer>
+        <div>
+            &copy; DAWAN Oct - 2023 &trade;
+        </div>
         <div>
             <div>
                 <h4>Liens utiles</h4>
